@@ -1,0 +1,275 @@
+Good morning Everyone :)
+
+Angular and Nodejs => 21 Sessions of 3 hours Each.
+
+Self Introduction
+Raghu Anand
+Senior Technical Trainer with an MNC Company.
+My passion towards Training - Train people on different Technologies.
+
+3rd Batch with TCS - Angular and Nodejs
+
+10+ YEARS OF Experience. => 8+ years in Training.
+30+ different Domains.
+
+Feedbacks
+Learn to New Technologies
+
+Participant's Introduction
+
+Name, No_of years in Experience, If you have any experience in Angular,
+place of Origin, Hobby.
+
+Raghu Anand, 10+ years, 3+ years, Bangalore,India, Binge Watch.
+
+Take away from the Batch Introduction
+
+> 95% has 0 experience on Angular.
+
+Module 1 - Getting Started with Angular.
+
+=> Web Application
+=> Architecture of Web Application
+=> Front End and Back End
+=> Pre-Requisites Needed to Learn before Angular
+=> Angular - Introduction
+=> Difference b/w Angular and AngularJS
+=> Architecture of Angular
+=> How to install Angular and required tools to work with Angular
+=> Create your first Angular Project.
+
+=> Web Application
+It is a software which is hosted on the web and which can be accessed
+from the web.
+Servers = These are computers which provides/serves other computers/Clients
+
+Client == makes a request == Server
+
+Server == will send a response == client
+
+Usually we call client as a Browser
+ANd we call Server as a Web Application
+
+1 tier Architecture
+=> The entire Web application is tightly coupled together into a single package and it is hosted on the server.
+Eg: Web appln has 2 features namely Mobile Bill, internet bill.
+problem inside the internet bill code.
+
+2 tier Architecture
+=> Tightly Coupled = Since both the parts where still held together into a single package.
+=> the entire Web Application was divided into 2 parts.
+1st Part = Views
+2nd part = logic + Data [tightly coupled]
+
+3 tier Architecture
+=> Tightly Coupled = Since all the 3 parts where still held together into a single package.
+=> web appln into 3 parts
+views layer
+||
+logic layer //this layer gets overloaded by getting the req form v & d.
+||
+data layer
+
+MVC Architecture
+=> Tightly Coupled = Since all the 3 parts where still held together into a single package.
+=> is same as 3 tier Architecture But there was one big difference i.e.
+The parts inside the web application was arranged in a form of Triangle.
+
+                        Views
+                    ||          ||
+                Logic    ----   Data
+
+Microservices Architecture => Depending upon the project
+=> Majority of the project implment Microservices Architecture.
+They need DevOps
+=> Loosly Coupled Architecture.
+=> They have divided the entire project into small projects.
+=> These small project have been deployed independently.
+=> Implment these services on more than 1 server....!!!!
+Eg: Service Based Website - Mobile Bill Payment, Water Bill Payment,
+A customer has raised a defect/concern in Water Bill Payment.
+Developer has to work on it. During the time of working on it.
+yes the Mobile Bill will still work.
+
+4th Industrial Revolution - Customers First.
+
+Ecommerce Website
+Black Friday
+Big Billion Day sales Offer -> Lot of items can be purchased with less amount
+
+Normally without this offers => 1000 customers are visiting the shop
+Day with offer => >1000 customers.... 10 Lakhs
+
+=> Architecture of Web Application categorized into 2 types namely:
+
+Single Page Application
+=> The page does not get refreshed
+=> During the first request the entire view is downloaded from the server and from the second request onwards only the data is downloaded.
+=> Bandwidth Usage is low
+=> Server will not be Overloaded Much. This is because some of the tasks that the server was supposed to implement now gets implemented by the Browser.
+=> More users can be accepted on the server side
+=> You normally will not see this kind of web application getting crashed
+
+Multi Page Application/a Bit Traditional in Nature
+=> The page gets refreshed
+=> It does not matter with the number of request. Everytime the view along
+with the data will be downloaded from the server.
+=> Bandwidth Usage is High
+=> Server will be Overloaded.
+=> It cant accept more users.
+=> Every now and then sometimes it gets crashed.
+
+=> Front End and Back End
+Every Web application is actually divided into 3 parts namely
+
+1. Front End - Views - Presentation Layer - Browser - Client
+2. back End - COntroller - Logic Layer - Server
+3. Database - Model - Data Layer
+
+Front End/Client/Browser
+=> HTML CSS JS
+During 2010's JS was gaining more popularity.
+JS libraries = developers started developing diff libraries which can perform some specific tasks.
+A huge pool of JS libraries
+framework = structure with collection of libraries.
+
+    Front End Framework
+    AngularJS
+    ReactJS
+    VueJS
+    etc.....
+
+Back End / Server
+=> PHP, Python, java, Dot Net, etc...
+=> logics are written with the help of programming language.
+
+Different Lang at front end and back end ==> connecting them will be also difficult
+
+Google - Opened up there JS Engine which was used in Chrome.
+
+JS Engine + features[libuv] => NodeJS
+Runtime Environment which supports execution of JS outside the Browser.
+
+AngularJS NodeJS => JS
+
+=> Pre-Requisites Needed to Learn before Angular
+Typescript and Javascript ES5 and ES6
+
+HomeWork
+
+1. Go through the entire Javascript
+2. Video in Edureka on typescript - Go through it.
+
+=> Angular - Introduction
+= Front End Framework
+= Single Page Application
+= Uses typescript based coding.
+
+Typescript
+=> script
+=> superset of javascript
+=> Inside typescript you will find JS syntax especially you will find the JS-ES5 and JS-ES6 Version
+=> The Typescript is actually converted into Javascript by the Typescript compiler called as Transpiler
+
+Features of Angular
+=> Flexible in Nature
+=> Single Page Application
+=> Maximum Users
+=> Data transfer is fast
+=> Cross platform
+It manupilates data using the Real DOM elements.
+The recommended lang is typescript
+2 way data binding
+
+=> Difference b/w Angular and AngularJS
+
+Angular JS - First Version
+=> Javascript is used for coding
+=> Does not support mobile based application
+=> 2 way data binding
+
+Angular - Second Version Onwards
+=> typescript is used for coding
+=> Any devices are supported
+=> Interpolation Techniques, Property Bindind, 1 way data binding, 2 way data binding, template based data binding.
+
+=> Architecture of Angular
+MVVM Model => Model view view Model
+
+    View/Browser     =       View-Model        =          Model/Data
+
+1. The view/Browser Initializes/Triggers an event
+2. This event will connect with the View-Model using Data Binding Concept.
+3. The View-Model will request for the data from the Model/Data.
+4. The Model/Data sends/renders the data back to the View-Model as response
+5. The View-Model will send the data back to the View/Browser
+
+=> How to install Angular and required tools to work with Angular
+
+1. Nodejs
+   a) Visit https://nodejs.org/en/
+   b) Download the 14.17.6 LTS Version of Nodejs Software
+   c) Click on the Downloaded File
+   d) Select Next
+   e) Click on the Install Button
+   f) Open a Nodejs Terminal and type node -v => you will get the version number.
+
+Along with the installtion of Node one more important tool called as npm would be installed automatically
+NPM - Node Package manager.
+This tool manages the packages/libraries on behalf of NodeJS.
+
+    g) In Nodejs terminal type npm -v => you will get the version of npm.
+
+2. Angular CLI
+   => It is a command line interface tool.
+   => npm install -g @angular/cli
+   -g means global
+   => This provides us with lot of functionalities which helps us to create
+   angular projects faster and with minimum interaction from the developer.
+   commands are as follow
+   ng serve
+   ng build
+   ng test
+   ng update
+   ng version
+   ng help
+   ng new
+
+3. Visual Studio Code
+   a) Visit https://code.visualstudio.com/
+   b) Click the download button and download the file
+   c) Click the downloaded file
+   d) Select the Accept the terms and conditions and then click Next
+   e) Add to Path ---- please select this option and click Next
+   f) click on Install
+
+=> Create your first Angular Project.
+
+1. Create a folder using the following command
+   ng new firstproject
+2. Enter into your project Directory
+   cd firstproject
+3. Execute the Project using
+   ng serve
+
+//Error
+ng serve says a project defintion can not be found
+solution: Delete the present project and create a new one.
+
+//No for me it says generating browser application bundles
+Wait for another 1/2 min. A Browser will open with Angular Logo in the Middle of the page.
+
+//open a Browser then Manually please type
+localhost:4200 Press Enter......
+
+=> Assignment
+Done.
+
+Feedback
+Excellent => considered best.
+Good => Bad for the trainers...lacking something.
+
+Comment -I can work on the comment
+
+Trainer Rating => Good /Excellent
+Course Rating =>
